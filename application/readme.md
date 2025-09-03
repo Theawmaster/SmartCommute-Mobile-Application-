@@ -2,7 +2,7 @@
 
 > _"Empowering commuters with intelligent, real-time public transport guidance for the cities of tomorrow."_
 
-![SmartCommute Thumbnail](./application/frontend/assets/SmartCommute_Logo.png)
+![SmartCommute Thumbnail](../frontend/assets/SmartCommute_Logo.png)
 
 <p align="center">
   <a href="https://github.com/softwarelab3/2006-SCEX-L1/tree/main/application/frontend">Frontend</a> |
@@ -10,7 +10,7 @@
   <a href="https://www.youtube.com/watch?v=S7B_koAZyYg">Demo Video</a>
 </p>
 
-SmartCommute is a mobile-first travel companion that optimizes your daily commute using real-time transport data. Designed for Singapore commuters — including students, working professionals, and elderlies — SmartCommute offers intelligent route suggestions, multilingual support, and seamless cab integration.
+SmartCommute is a mobile-first travel companion that optimizes your daily commute using real-time transport data. Designed for Singapore commuters, including students, working professionals, and the elderly. SmartCommute offers intelligent route suggestions, multilingual support, and seamless cab integration.
 
 This project was built for NTU SC2006 Software Engineering, demonstrating robust architecture, modular design, and practical integration with public APIs like OneMap and LTA.
 
