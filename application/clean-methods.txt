@@ -1,0 +1,85 @@
+./frontend/App.tsx:60:function AppNavigator() {
+./frontend/screens/Loginpage.tsx:30:  const toggleSwitch = () => {
+./frontend/screens/Settingpage.tsx:77:  const handlePress = (size: number) => {
+./frontend/screens/ProfilePage.tsx:100:  const handleChangePassword = () => {
+./frontend/screens/ProfilePage.tsx:108:  const handleSupportPress = () => {
+./frontend/screens/PermissionsScreen.tsx:43:const getThemedStyles = (isDarkMode: boolean) =>
+./frontend/screens/Forgetpasswordpage.tsx:28:  const toggleSwitch = () => toggleTheme();
+./frontend/screens/Chatbotpage.tsx:36:const handleOpenLink = (url: string) => {
+./frontend/screens/Chatbotpage.tsx:54:const handleCall = (phoneNumber: string) => {
+./frontend/screens/Chatbotpage.tsx:329:  const renderMessage = ({ item }: { item: Message }) => (
+./frontend/screens/Verificationpage.tsx:41:  const handleChange = (value: string, index: number) => {
+./frontend/screens/Verificationpage.tsx:51:  const handleBack = () => {
+./frontend/screens/Verificationpage.tsx:55:  const handleKeyPress = (event: any, index: number) => {
+./frontend/screens/IntroScreen.tsx:90:  const getWeatherIconUrl = (iconCode: string) => {
+./frontend/screens/FareRouteMap.tsx:81:  const toggleLegExpansion = (index: number) => {
+./frontend/screens/FareRouteMap.tsx:119:  const zoomToLeg = (legIndex: number) => {
+./frontend/screens/FareRouteMap.tsx:132:  const renderLegDetails = (leg: any, index: number) => {
+./frontend/screens/FareRouteMap.tsx:189:  const getModeColor = (mode: string, route?: string) => {
+./frontend/screens/FareRouteMap.tsx:196:  const renderMap = () => {
+./frontend/screens/FareRouteMap.tsx:241:  const zoomToFullRoute = () => {
+./frontend/screens/Signuppage.tsx:19:  const toggleSwitch = () => {
+./frontend/screens/Verificationselection.tsx:31:  const handleVerificationPress = () => {
+./frontend/screens/Farepage.tsx:21:const TransportFarePage = () => {
+./frontend/screens/Farepage.tsx:58:  const handleFareTypeSelection = (fare: string) => {
+./frontend/screens/Farepage.tsx:129:  const handleTransportChange = (type: TransportType) => {
+./frontend/screens/Farepage.tsx:135:  const openFareCalculator = () => {
+./frontend/screens/Homepage.tsx:12:const TransportTabs = () => {
+./frontend/screens/Homepage.tsx:19:  const renderLayout = () => {
+./frontend/components/Taxihomelayout.tsx:127:  const goToCurrentLocation = () => {
+./frontend/components/Taxihomelayout.tsx:139:  const handleMarkerPress = (taxi: Taxi) => {
+./frontend/components/Taxihomelayout.tsx:151:  const zoomOutOverview = () => {
+./frontend/components/Taxihomelayout.tsx:165:  const handleHotlinePress = (phoneNumber: string) => {
+./frontend/components/Taxihomelayout.tsx:179:  const renderHotlineItem = ({ item }: { item: Hotline }) => (
+./frontend/components/Trainhomelayout.tsx:101:  const handleOpenSMRTTrainArrival = () => {
+./frontend/components/Trainhomelayout.tsx:115:  const zoomOutOverview = () => {
+./frontend/components/Trainhomelayout.tsx:144:  const zoomToCurrentLocation = () => {
+./frontend/components/Trainhomelayout.tsx:169:  const setSections = (sections: number[]) => {
+./frontend/components/BusStopSearch.tsx:23:function getLocationByQuery(query: string) {
+./frontend/components/BusStopSearch.tsx:32:function filterStopsByDistance(
+./frontend/components/ThemeContext.tsx:20:  const toggleTheme = () => {
+./frontend/components/ThemeContext.tsx:23:  const changeColor = (newcolor: string) => {
+./frontend/components/ThemeContext.tsx:26:  const changeFontSize = (newfontsize:number) => {
+./frontend/components/ThemeContext.tsx:37:export const useTheme = () => {
+./frontend/components/Layout.tsx:141:  const getWeatherIconUrl = (iconCode: string) => {
+./frontend/components/Layout.tsx:145:  const updateSuggestions = (text: string) => {
+./frontend/components/Layout.tsx:163:  const handleSuggestionPress = (suggestion: string) => {
+./frontend/components/Layout.tsx:168:  const handleSearch = () => {
+./frontend/components/Layout.tsx:188:  const renderSuggestion = ({ item }: { item: string }) => (
+./frontend/components/Bushomelayout.tsx:57:const Bushomelayout = () => {
+./frontend/components/Bushomelayout.tsx:128:  const setSections = (sections: number[]) => {
+./frontend/components/Bushomelayout.tsx:166:  const handlePress = (bus: BusService, busStopLat: number, busStopLng: number) => {
+./frontend/components/Bushomelayout.tsx:179:  const goToCurrentLocation = () => {
+./frontend/components/Bushomelayout.tsx:183:  const isValidCoordinate = (latitude: number, lon: number) => {
+./frontend/components/Bushomelayout.tsx:187:  const areAllCoordsClose = (coords: any[], threshold = 0.0001) => {
+./frontend/components/Bushomelayout.tsx:196:  const zoomOutOverview = () => {
+./frontend/components/Bushomelayout.tsx:226:  const handleMarkerPress = (bus: Bus) => {
+./frontend/styling/Bushomelayout.styles.ts:3:export const BushomelayoutStyles = (isDarkMode: boolean, color: string, fontsize: number) => {
+./frontend/styling/Taxihomelayout.styles.ts:5:export const TaxihomelayoutStyles = (isDarkMode: boolean, color: string, fontsize: number) => {
+./frontend/styling/Trainhomelayout.styles.tsx:3:export const TrainhomelayoutStyles = (isDarkMode: boolean, color: string, fontsize: number) => {
+./frontend/styling/farePageDynamicStyles.ts:10:const farePageDynamicStyles = ({ isDarkMode, color, fontsize }: DynamicStyleParams) =>
+./frontend/styling/Settingpage.styles.ts:3:const createStyles = (isDarkMode: boolean, color: string, fontsize: number) =>
+./frontend/styling/Homepage.styles.ts:3:const HomepageStyles = (isDarkMode: boolean, color: string) => 
+./frontend/styling/SendFeedback.styles.ts:3:const SendFeedbackStyles = (isDarkMode: boolean, color: string) =>
+./frontend/styling/FareRouteMap.styles.ts:12:const fareRouteMap = ({ isDarkMode, color, fontsize }: DynamicStyleParams) =>
+./frontend/styling/Layout.styles.ts:3:const LayoutStyles = (isDarkMode: boolean, color: string) =>
+./backend/src/middleware/auth.ts:10:export const authenticate = (req: Request, res: Response, next: NextFunction) => {
+./backend/src/utils/geoUtils.ts:11:export function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
+./backend/src/utils/geoUtils.ts:12:    const toRad = (value: number) => (value * Math.PI) / 180;
+./backend/src/utils/geoUtils.ts:31:export async function geocodeOneMap(placeName: string): Promise<{ lat: number; lng: number } | null> {
+./backend/src/utils/busUtils.ts:42:function getFormattedArrival(isoDate: string): string {
+./backend/src/utils/busUtils.ts:60:export async function getBusArrival(
+./backend/src/utils/trainUtils.ts:8:export function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
+./backend/src/utils/trainUtils.ts:9:  const toRad = (value: number) => (value * Math.PI) / 180;
+./backend/src/utils/trainUtils.ts:25:export function readMRTStationsCSV(filePath: string): Promise<any[]> {
+./backend/src/utils/trainUtils.ts:40:export function getTrainLine(stnNo: string): string | undefined {
+./backend/src/utils/trainUtils.ts:68:export async function getNearbyTrainCrowd(
+./backend/src/controllers/busStopController.ts:28:export async function getNearbyBusStops(
+./backend/src/controllers/busStopNameController.ts:17:export async function getBusStopDetails(busStopCode: string): Promise<BusStopDescription> {
+./backend/src/data/geocodeOneMap.ts:2:export async function geocodeOneMap(placeName: string): Promise<{ lat: number, lng: number } | null> {
+./backend/src/services/farerouteService.ts:11:export async function fetchFareRouteFromOneMap(
+./backend/src/services/farerouteService.ts:107:function estimateCabFare(distanceKm: number, durationMin: number): string {
+./backend/src/services/farerouteService.ts:138:function decodePolylineToCoords(encoded: string): { latitude: number; longitude: number }[] {
+./backend/src/services/taxiService.ts:17:export async function fetchAvailableTaxis(
+./backend/src/services/chatquery.ts:15:export async function callGeminiChatbot(query: string): Promise<string> {
+./backend/src/services/chatquery.ts:37:export async function getChatbotResponse(query: { query: string }): Promise<ChatbotResponse> {

@@ -1,0 +1,295 @@
+{
+    "settingpage": {
+      "languageButton": "Bahasa: ",
+      "myProfile": "Profil Saya",
+      "displayFonts": "Paparan Fon",
+      "colorTheme": "Tema Warna",
+      "sendFeedback": "Hantar Maklum Balas",
+      "termsPolicy": "Terma Penggunaan / Polisi Privasi",
+      "selectLanguageTitle": "Pilih Bahasa",
+      "closeButton": "Tutup",
+      "fontModalTitle": "Pilih Saiz Fon Anda",
+      "fontLabel": "Fon",
+      "modalBody": "Dengan menggunakan aplikasi ini, anda bersetuju dengan Terma Penggunaan dan Polisi Privasi kami. Bagi menyediakan anda dengan kemas kini transit peribadi, perancangan laluan, dan pengalaman log masuk yang selamat, aplikasi ini memerlukan akses kepada data lokasi anda, serta alamat e-mel dan kata laluan anda.\n\nData Lokasi:\nLokasi anda hanya digunakan untuk mengira laluan dan menyediakan kemas kini pengangkutan awam masa nyata berhampiran anda. Maklumat ini diproses pada peranti anda atau pelayan selamat kami dan tidak dikongsi dengan pihak ketiga tanpa kebenaran jelas daripada anda.\n\nE-mel dan Kata Laluan:\nAlamat e-mel anda digunakan untuk membuat dan menguruskan akaun anda serta untuk menyampaikan kemas kini perkhidmatan penting. Kata laluan anda disimpan dengan selamat menggunakan enkripsi untuk melindungi privasi anda dan memastikan keselamatan akaun.\n\nKeselamatan Data dan Privasi:\nKami mengambil privasi anda dengan serius. Kami tidak menjual atau mendedahkan maklumat peribadi anda kepada mana-mana pihak ketiga. Semua data dikendalikan mengikut garis panduan privasi kami dan undang-undang yang berkenaan. Anda mempunyai hak untuk meminta penghapusan atau pengubahsuaian data anda dengan menghubungi pasukan sokongan kami.\n\nDengan meneruskan, anda mengakui bahawa anda telah membaca, memahami, dan bersetuju dengan terma-terma ini. Jika anda tidak bersetuju dengan mana-mana bahagian, sila jangan gunakan aplikasi ini.",
+      "language": "Bahasa Melayu"
+    },
+    "layout": {
+      "searchPlaceholder": "Cari (cth: tambang, chat, profil)...",
+      "home": "🏠 Utama",
+      "fare": "💰 Tambang",
+      "chatbot": "🤖 Chatbot",
+      "settings": "⚙️ Tetapan",
+      "currentWeather": "Cuaca Semasa",
+      "weatherLoadingError": "Gagal mendapatkan data cuaca. Sila semak sambungan pelayan.",
+      "close": "Tutup"
+    },
+    "transport": {
+      "taxi": "Teksi",
+      "bus": "Bas",
+      "mrt": "MRT"
+    },
+    "bushomelayout": {
+      "errorText": "Bersabarlah... Perkhidmatan bas telah berakhir.",
+      "Loading": "Memuatkan data bas..."
+    },
+    "taxihomelayout": {
+      "makingCall": "Sedang Memanggil",
+      "callConfirm": "Anda akan menghubungi {{phone}}. Adakah anda ingin meneruskan?",
+      "cancel": "Batal",
+      "continue": "Teruskan",
+      "currentLocation": "Lokasi Semasa",
+      "overview": "Gambaran Keseluruhan",
+      "callTaxi": "Panggil Teksi",
+      "taxisAvailable": "Teksi Tersedia: {{count}}",
+      "usingCurrentLocation": "Menggunakan Koordinat Lokasi Semasa",
+      "bookingHotlines": "Talian Tempahan Teksi",
+      "hotlineInfo": "Untuk menempah teksi, sila hubungi salah satu nombor hotline kami.",
+      "close": "Tutup",
+      "Loading": "Memuatkan data teksi..."
+    },
+    "trainhomelayout": {
+      "errorText": "Bersabarlah... Perkhidmatan kereta api telah berakhir.",
+      "crowdLevel": "Tahap Kesibukan",
+      "crowdLevel": "Tahap Kesibukan",
+      "ShowMap": "Tunjukkan Peta",
+      "TrainInfo": "Maklumat Kereta Api",
+      "ShowList": "Tunjukkan Senarai",
+      "Overview": "Gambaran Keseluruhan",
+      "Loading": "Memuatkan data kereta api...",
+      "CurrentLocation": "Lokasi Semasa"
+    },
+    "farepage": {
+      "chooseFareType": "Pilih Jenis Tambang ▼",
+      "fareCalculator": "Kalkulator Tambang",
+      "openFareCalculator": "Buka Kalkulator Tambang",
+      "viewNavigationMap": "Lihat Peta Navigasi",
+      "taxi": "Teksi",
+      "bus": "Bas",
+      "mrt": "MRT",
+      "fareTypes": {
+        "taxi": {
+          "flagDown": "Tambang Bendera",
+          "distanceTime": "Tambang Berdasarkan Jarak & Masa",
+          "peakPeriods": "Waktu Puncak",
+          "locationSurcharges": "Tambahan Lokasi",
+          "bookingFees": "Bayaran Tempahan",
+          "peakPeriod": "Waktu Puncak\nHari bekerja\n• Dari 6 pagi hingga 9:29 pagi, tidak termasuk Cuti Umum \n• Dari 5 petang hingga 11:59 malam, termasuk Cuti Umum",
+          "lateNight": "Pengambilan Lewat Malam\n\nSetiap hari dari tengah malam hingga 5:59 pagi"
+        },
+        "bus": {
+          "adultCard": "Tambang Kad Dewasa",
+          "workfare": "Tambang Kad Skim Konsesi Pengangkutan Workfare",
+          "studentCard": "Tambang Kad Pelajar",
+          "seniorDisabled": "Tambang Kad Warga Emas/Orang Kurang Upaya",
+          "fareTable": "Jadual Tambang Bas"
+        },
+        "mrt": {
+          "adultCard": "Tambang Kad Dewasa",
+          "workfare": "Tambang Kad Skim Konsesi Pengangkutan Workfare",
+          "studentCard": "Tambang Kad Pelajar",
+          "seniorDisabled": "Tambang Kad Warga Emas/Orang Kurang Upaya",
+          "discount50cent": "Diskaun 50 sen jika anda menyentuh kad sebelum 7:45 pagi pada hari bekerja (tidak termasuk cuti umum)"
+        }
+      },
+      "tables": {
+        "taxiType": "Jenis Teksi",
+        "fare": "Tambang",
+        "distanceFare": "Julat Tambang Berdasarkan Jarak",
+        "waitFare": "Tambang Menunggu",
+        "period": "Tempoh",
+        "meteredFare": "Tambang Meter",
+        "location": "Lokasi",
+        "surcharge": "Tambahan",
+        "operator": "Pengendali",
+        "website": "Laman Web",
+        "distance": "Jarak (km)",
+        "basicService": "Perkhidmatan Asas",
+        "expressService": "Perkhidmatan Ekspres",
+        "tapToZoom": "Ketuk untuk zum",
+        "close": "Tutup",
+        "Standard": "Standard",
+        "Premium": "Premium"
+      },
+      "bookingInfo": "Untuk tempahan bukan waktu puncak setiap perjalanan, bayaran tempahan ialah $2.30 untuk semua syarikat, kecuali Prime ($2.50).\n\nUntuk waktu puncak, bayaran tempahan berbeza-beza. Sila hubungi syarikat masing-masing untuk maklumat lanjut.\n\nWaktu puncak:\n\nHari bekerja (Isnin hingga Jumaat, tidak termasuk Cuti Umum)\n\n • Dari 6 pagi hingga 9:29 pagi\n\n • Dari 10 malam hingga 9:29 malam\n\nHujung minggu (Sabtu, Ahad dan Cuti Umum):\n\n • Dari 10 pagi hingga 1:59 petang\n\n • Dari 5 petang hingga 11:59 malam",
+      "alert": {
+        "External": "Pautan Luaran",
+        "message": "Anda akan meninggalkan aplikasi, adakah anda ingin meneruskan?",
+        "continue": "Teruskan",
+        "cancel": "Batalkan"
+      }
+    },
+    "feedback": {
+      "back": "Kembali",
+      "title": "Borang Maklum Balas",
+      "placeholder": "Masukkan maklum balas anda...",
+      "ratingLabel": "Nilai SmartCommute:",
+      "submit": "Hantar Maklum Balas",
+      "alerts": {
+        "errorEmpty": "Sila berikan maklum balas dan penilaian.",
+        "errorAuth": "Sila log masuk untuk menghantar maklum balas. Terima kasih!",
+        "errorNetwork": "Ralat rangkaian. Sila cuba lagi kemudian.",
+        "success": "Maklum balas berjaya dihantar!",
+        "OK": "OK"
+      }
+    },
+    "fareroute": {
+      "origin": "Asal",
+      "destination": "Destinasi",
+      "e.g.": "e.g. ",
+      "PublicTransport": "Pengangkutan Awam",
+      "cab": "Teksi",
+      "Search": "Cari",
+      "AlertTitle": "Tidak Dapat Mengambil Laluan",
+      "AlertMessage": "Sila semak sambungan internet anda dan cuba lagi atau tiada pengangkutan awam yang tersedia pada waktu ini.",
+      "EstimatedFare": "Anggaran Tambang",
+      "TravelTime": "Masa Perjalanan",
+      "MapOverview": "Gambaran Keseluruhan Peta"
+    },
+    "authentication": {
+      "login": "Log Masuk",
+      "signup": "Daftar",
+      "continueasguest": "Teruskan sebagai Tetamu",
+      "forgetpassword": "Lupa Kata Laluan",
+      "verifyemail": "Sahkan E-mel",
+      "username": "Nama Pengguna",
+      "password": "Kata Laluan",
+      "confirmpassword": "Sahkan Kata Laluan",
+      "email": "E-mel",
+      "alerts": {
+        "AlertErrorMessage": "Ralat",
+        "LoginAlertMessage": "Log Masuk Gagal",
+        "FieldRequiredMsg": "Semua medan diperlukan!",
+        "EmailWrongFormat": "E-mel mesti mengandungi @ dan .com",
+        "PasswordNoMatch": "Kata laluan tidak sepadan!",
+        "PasswordRequirement": "Kata laluan mesti sekurang-kurangnya 8 aksara panjang, mengandungi 1 huruf besar, 1 nombor, dan 1 aksara khas.",
+        "EmptyEmail": "Sila masukkan e-mel anda!",
+        "signupfailed": "Pendaftaran Gagal",
+        "networkerror": "Ralat rangkaian. Sila cuba lagi nanti."
+      },
+      "backendmessages": {
+        "Signup400": "E-mel telah digunakan",
+        "Signup401": "Nama pengguna telah digunakan",
+        "Signup201": "Pengguna telah didaftarkan. Sila sahkan e-mel anda.",
+        "Error500": "Ralat pelayan",
+        "Login400": "Pengguna tidak dijumpai",
+        "Login401": "E-mel belum disahkan",
+        "Login402": "Kelayakan tidak sah",
+        "Login200": "OTP telah dihantar ke e-mel anda.",
+        "Logout400": "Tidak log masuk",
+        "Logout200": "Log keluar berjaya",
+        "VerifyLoginOTP400": "OTP tidak sah atau telah tamat tempoh",
+        "VerifyLoginOTP200": "Log masuk berjaya",
+        "verifyEmail400": "OTP tidak sah atau telah tamat tempoh",
+        "verifyEmail200": "E-mel berjaya disahkan",
+        "resendOTP401": "Pengguna tidak disahkan",
+        "resendOTP404": "OTP Baru Anda",
+        "resendOTP200": "OTP telah dihantar semula",
+        "ForgetPassword200": "Berjaya\nOTP telah dihantar ke e-mel anda untuk menetapkan semula kata laluan.",
+        "ForgetPassword400": "E-mel diperlukan",
+        "ForgetPassword404": "Pengguna tidak dijumpai",
+        "ForgetPassword500": "Ralat pelayan"
+      }
+    },
+    "ProfilePage":{
+      "back": "Kembali",
+      "profiledetail": "Butiran Profil",
+      "StatusGuest": "Status: Tetamu",
+      "StatusAdmin": "Status: Admin",
+      "StatusPremium": "Status: Premium",
+      "StatusLite": "Status: Lite",
+      "GreetingHi": "Hai, {{username}}",
+      "Greeting": "Hai, Pengguna",
+      "SignupLogin": "Daftar / Log Masuk",
+      "Supportus": "Sokong Kami",
+      "GoAdminPanel": "Pergi ke Panel Admin",
+      "ChangePassword": "Tukar Kata Laluan",
+      "Logout": "Log Keluar",
+      "Message1": "Tingkatkan ke Premium",
+      "Message2": "Nikmati pengalaman tanpa iklan tanpa komitmen jangka panjang – batalkan bila-bila masa.",
+      "Message3": "Hanya $1.48 / 3 bulan",
+      "Message4": "• Nikmati tanpa iklan",
+      "Message5": "• Sokong pencipta tempatan",
+      "Message6": "• Nilai luar biasa",
+      "Upgrade": "Tingkatkan Sekarang",
+      "NoteMessage": "Nota: Pembayaran akan dikenakan semasa pengesahan pembelian. Langganan anda akan diperbaharui secara automatik melainkan auto-pembaharuan dimatikan sekurang-kurangnya 24 jam sebelum akhir tempoh semasa. Urus atau matikan auto-pembaharuan dalam tetapan Akaun anda. Tiada pengembalian wang separa.",
+      "Cancel": "Batal",
+      "Alerts": {
+        "LoggedOut": "Log Keluar\nAnda telah log keluar.",
+        "DenyAccess": "Akses Ditolak\nHanya pengguna yang log masuk boleh menukar kata laluan mereka.",
+        "LoginRequired": "Log Masuk Diperlukan\nAnda mesti log masuk sebelum membeli ciri premium.",
+        "PurchaseSuccess": "Pembelian Berjaya\nAnda kini seorang pengguna Premium!",
+        "PurchaseFail": "Pembelian Gagal\nTerdapat masalah mengemas kini status premium anda.",
+        "Error": "Ralat\nTerdapat ralat semasa mengemas kini status premium anda."
+      }
+    },
+    "ProfilePageForAdmin": {
+      "Back": "Kembali",
+      "FeedbackReceive": "Maklum Balas Diterima oleh Pentadbir",
+      "User": "Pengguna: ",
+      "Rating": "Penilaian: ",
+      "Date": "Tarikh: ",
+      "Alerts": {
+        "NotLoggedIn": "Tidak Berdaftar\nSila log masuk sebagai Pentadbir untuk mengakses halaman ini.",
+        "DenyAccess": "Akses Ditolak\nAnda bukan seorang pentadbir.",
+        "ErrorVerify": "Ralat\nGagal untuk mengesahkan status pentadbir. Sila cuba lagi.",
+        "ErrorFetch": "Ralat\nTidak dapat mendapatkan maklum balas. Sila cuba lagi."
+      },
+      "BackendMessages": {
+        "getfeedback404": "Ralat\nTidak dijumpai atau tidak disahkan.",
+        "getfeedback405": "Ralat\nAkses ditolak. Hanya pentadbir yang boleh mendapatkan maklum balas.",
+        "getfeedback406": "Ralat\nTiada maklum balas dijumpai.",
+        "getfeedback200": "Berjaya\nSemua maklum balas berjaya diperoleh",
+        "getfeedback500": "Ralat\nGagal mendapatkan semua maklum balas"
+      }
+    },
+    "Verificationselectionpage": {
+      "text1": "Pengesahan",
+      "text2": "Pengesahan melalui",
+      "text3": "E-mel"
+    },
+    "VerificationPage": {
+      "Verification": "Pengesahan",
+      "CodeHeaderText": "Masukkan kod 6 angka",
+      "ResendText": "Hantar Semula",
+      "VerifyText": "Sahkan",
+      "Alerts": {
+        "VerificationSuccess": "Berjaya\nOTP disahkan dengan jayanya!",
+        "NetworkError": "Ralat\nRalat rangkaian. Sila cuba lagi kemudian.",
+        "ResendSuccess": "Berjaya\nOTP telah dihantar semula dengan jayanya!"
+      },
+      "BackendMessages": {
+        "Verify400": "Pengesahan Gagal\nOTP tidak sah atau telah tamat tempoh",
+        "Verify500": "Pengesahan Gagal\nRalat pelayan",
+        "Verify401": "Pengesahan Gagal\nE-mel dan OTP diperlukan.",
+        "Resend401": "Ralat\nPengguna tidak disahkan",
+        "Resend404": "Ralat\nPengguna tidak dijumpai",
+        "Resend500": "Ralat\nRalat pelayan"
+      }
+    },
+    "ChangePassword": {
+    "Back": "Kembali",
+    "ChangePassword": "Tukar Kata Laluan",
+    "OldPassword": "Kata Laluan Lama",
+    "NewPassword": "Kata Laluan Baru",
+    "ConfirmNewPassword": "Sahkan Kata Laluan Baru",
+    "ResetPassword": "Tetapkan Semula Kata Laluan",
+    "UpdatePassword": "Kemaskini Kata Laluan",
+    "Alerts": {
+      "RestrictedAccess": "Akses Terhad\nHanya pengguna yang telah log masuk boleh menukar kata laluan.",
+      "PasswordNotMatch": "Ralat\nKata laluan baru dan pengesahan tidak sepadan.",
+      "PasswordRequirement": "Ralat\nKata laluan mesti sekurang-kurangnya 8 aksara, mengandungi 1 huruf besar, 1 nombor, dan 1 aksara khas.",
+      "ErrorChangingPassword": "Ralat\nBerlaku ralat semasa menukar kata laluan."   
+    },
+    "BackendMessages": {
+      "ChangePassword200": "Berjaya\nKata laluan berjaya ditukar.",
+      "ChangePassword400": "Ralat\nSila berikan Kata Laluan Lama dan Baru.",
+      "ChangePassword401": "Ralat\nToken tidak sah atau tiada. Sila log masuk dahulu.",
+      "ChangePassword402": "Ralat\nPengguna tidak dijumpai.",
+      "ChangePassword403": "Ralat\nKata laluan lama tidak betul.",
+      "ChangePassword404": "Ralat\nEmel dan kata laluan baru diperlukan.",
+      "ChangePassword500": "Ralat\nRalat pelayan"
+    }
+}
+    
+  }
+  

@@ -1,0 +1,206 @@
+{
+    "individualServices": [
+      {
+        "service": "TE1 Woodlands North",
+        "schedules": [
+          { "days": "Monday - Thursday", "firstTrain": "05:56", "lastTrain": "23:42" },
+          { "days": "Friday", "firstTrain": "05:56", "lastTrain": "23:42" },
+          { "days": "Saturday", "firstTrain": "05:56", "lastTrain": "23:42" },
+          { "days": "Sunday", "firstTrain": "06:16", "lastTrain": "23:42" },
+          { "days": "Public Holidays", "firstTrain": "06:16", "lastTrain": "23:42" }
+        ]
+      },
+      {
+        "service": "TE04 Springleaf",
+        "schedules": [
+          { "days": "Monday - Thursday", "firstTrain": "-", "lastTrain": "23:48" },
+          { "days": "Friday", "firstTrain": "-", "lastTrain": "23:48" },
+          { "days": "Saturday", "firstTrain": "-", "lastTrain": "23:48" },
+          { "days": "Sunday", "firstTrain": "-", "lastTrain": "23:48" },
+          { "days": "Public Holidays", "firstTrain": "-", "lastTrain": "23:48" }
+        ]
+      },
+      {
+        "service": "TE09 Caldecott",
+        "schedules": [
+          { "days": "Monday - Thursday", "firstTrain": "-", "lastTrain": "23:54" },
+          { "days": "Friday", "firstTrain": "-", "lastTrain": "23:54" },
+          { "days": "Saturday", "firstTrain": "-", "lastTrain": "23:54" },
+          { "days": "Sunday", "firstTrain": "-", "lastTrain": "23:54" },
+          { "days": "Public Holidays", "firstTrain": "-", "lastTrain": "23:54" }
+        ]
+      },
+      {
+        "service": "TE14 Orchard",
+        "schedules": [
+          { "days": "Monday - Thursday", "firstTrain": "-", "lastTrain": "00:00" },
+          { "days": "Friday", "firstTrain": "-", "lastTrain": "00:00" },
+          { "days": "Saturday", "firstTrain": "-", "lastTrain": "00:00" },
+          { "days": "Sunday", "firstTrain": "-", "lastTrain": "00:00" },
+          { "days": "Public Holidays", "firstTrain": "-", "lastTrain": "00:00" }
+        ]
+      },
+      {
+        "service": "TE22 Gardens by the Bay",
+        "schedules": [
+          { "days": "Monday - Thursday", "firstTrain": "-", "lastTrain": "00:06" },
+          { "days": "Friday", "firstTrain": "-", "lastTrain": "00:06" },
+          { "days": "Saturday", "firstTrain": "-", "lastTrain": "00:06" },
+          { "days": "Sunday", "firstTrain": "-", "lastTrain": "00:06" },
+          { "days": "Public Holidays", "firstTrain": "-", "lastTrain": "00:06" }
+        ]
+      },
+      {
+        "service": "TE27 Marine Terrace (Woodlands Bound)",
+        "schedules": [
+          { "days": "Monday - Thursday", "firstTrain": "-", "lastTrain": "00:20" },
+          { "days": "Friday", "firstTrain": "-", "lastTrain": "00:20" },
+          { "days": "Saturday", "firstTrain": "-", "lastTrain": "00:20" },
+          { "days": "Sunday", "firstTrain": "-", "lastTrain": "00:20" },
+          { "days": "Public Holidays", "firstTrain": "-", "lastTrain": "00:20" }
+        ]
+      },
+      {
+        "service": "TE29 Bayshore",
+        "schedules": [
+          { "days": "Monday - Thursday", "firstTrain": "06:06", "lastTrain": "01:03" },
+          { "days": "Friday", "firstTrain": "06:06", "lastTrain": "01:03" },
+          { "days": "Saturday", "firstTrain": "06:06", "lastTrain": "01:03" },
+          { "days": "Sunday", "firstTrain": "06:26", "lastTrain": "01:03" },
+          { "days": "Public Holidays", "firstTrain": "06:26", "lastTrain": "01:03" }
+        ]
+      },
+      {
+        "service": "EW13 City Hall",
+        "schedules": [
+          { "days": "Monday - Thursday", "firstTrain": "-", "lastTrain": "00:41" },
+          { "days": "Friday", "firstTrain": "-", "lastTrain": "00:41" },
+          { "days": "Saturday", "firstTrain": "-", "lastTrain": "00:41" },
+          { "days": "Sunday", "firstTrain": "-", "lastTrain": "00:41" },
+          { "days": "Public Holidays", "firstTrain": "-", "lastTrain": "00:41" }
+        ]
+      },
+      {
+        "service": "EW33 Tuas Link",
+        "schedules": [
+          { "days": "Monday - Thursday", "firstTrain": "05:34", "lastTrain": "00:03" },
+          { "days": "Friday", "firstTrain": "05:34", "lastTrain": "00:03" },
+          { "days": "Saturday", "firstTrain": "05:34", "lastTrain": "00:03" },
+          { "days": "Sunday", "firstTrain": "06:00", "lastTrain": "00:03" },
+          { "days": "Public Holidays", "firstTrain": "06:00", "lastTrain": "00:03" }
+        ]
+      },
+      {
+        "service": "EW1 Pasir Ris",
+        "schedules": [
+          { "days": "Monday - Thursday", "firstTrain": "05:19", "lastTrain": "00:56" },
+          { "days": "Friday", "firstTrain": "05:19", "lastTrain": "00:56" },
+          { "days": "Saturday", "firstTrain": "05:19", "lastTrain": "00:56" },
+          { "days": "Sunday", "firstTrain": "05:45", "lastTrain": "00:56" },
+          { "days": "Public Holidays", "firstTrain": "05:45", "lastTrain": "00:56" }
+        ]
+      },
+      {
+        "service": "Towards CG2 Changi Airport",
+        "schedules": [
+          { "days": "Monday - Thursday", "firstTrain": "05:34", "lastTrain": "23:29" },
+          { "days": "Friday", "firstTrain": "05:34", "lastTrain": "23:29" },
+          { "days": "Saturday", "firstTrain": "05:34", "lastTrain": "23:29" },
+          { "days": "Sunday", "firstTrain": "06:00", "lastTrain": "23:29" },
+          { "days": "Public Holidays", "firstTrain": "06:00", "lastTrain": "23:29" }
+        ]
+      },
+      {
+        "service": "BP6 P1 (Platform 1)",
+        "schedules": [
+          { "days": "Monday - Thursday", "firstTrain": "05:11", "lastTrain": "23:36" },
+          { "days": "Friday", "firstTrain": "05:11", "lastTrain": "23:36" },
+          { "days": "Saturday", "firstTrain": "05:11", "lastTrain": "23:36" },
+          { "days": "Sunday", "firstTrain": "05:30", "lastTrain": "23:36" },
+          { "days": "Public Holidays", "firstTrain": "05:30", "lastTrain": "23:36" }
+        ]
+      },
+      {
+        "service": "BP6 P1 (Platform 2)",
+        "schedules": [
+          { "days": "Monday - Thursday", "firstTrain": "05:14", "lastTrain": "23:31" },
+          { "days": "Friday", "firstTrain": "05:14", "lastTrain": "23:31" },
+          { "days": "Saturday", "firstTrain": "05:14", "lastTrain": "23:31" },
+          { "days": "Sunday", "firstTrain": "05:33", "lastTrain": "23:31" },
+          { "days": "Public Holidays", "firstTrain": "05:33", "lastTrain": "23:31" }
+        ]
+      }
+    ],
+    "lineBasedTimings": {
+      "downtownLine": {
+        "line": "DT",
+        "stations": [
+          {
+            "station": "DT1 Bukit Panjang",
+            "schedules": {
+              "Monday - Saturday": { "firstTrain": "5:30am", "lastTrain": "11:35pm" },
+              "Sundays/Public Holidays": { "firstTrain": "5:50am", "lastTrain": "11:35pm" }
+            }
+          }
+          
+        ]
+      },
+      "northEastLine": {
+        "line": "NE",
+        "stations": [
+          {
+            "station": "NE18 Punggol Coast",
+            "schedules": {
+              "Weekdays": { "firstTrain": "5:39am", "lastTrain": "11:25pm" },
+              "Saturdays": { "firstTrain": "5:39am", "lastTrain": "11:25pm" },
+              "Sundays/Public Holidays": { "firstTrain": "5:59am", "lastTrain": "11:25pm" }
+            }
+          }
+        ]
+      },
+      "sengkangLRT": {
+        "line": "Sengkang LRT",
+        "stations": [
+          {
+            "station": "Sengkang Town Centre - East Loop",
+            "schedules": {
+              "Mondays to Saturdays": { "firstTrain": "5:25am", "lastTrain": "12:35am" },
+              "Sundays/Public Holidays": { "firstTrain": "5:45am", "lastTrain": "12:35am" }
+            }
+          },
+          {
+            "station": "Sengkang Town Centre - West Loop",
+            "schedules": {
+              "Mondays to Saturdays": { "firstTrain": "5:18am", "lastTrain": "12:37am" },
+              "Sundays/Public Holidays": { "firstTrain": "5:38am", "lastTrain": "12:37am" }
+            }
+          }
+        ]
+      },
+      "punggolLRT": {
+        "line": "Punggol LRT",
+        "stations": [
+          {
+            "station": "Punggol Town Centre - East Loop",
+            "schedules": {
+              "Mondays to Saturdays": { "firstTrain": "5:20am", "lastTrain": "12:38am" },
+              "Sundays/Public Holidays": { "firstTrain": "5:40am", "lastTrain": "12:38am" }
+            }
+          },
+          {
+            "station": "Punggol Town Centre - West Loop",
+            "schedules": {
+              "Mondays to Saturdays": { "firstTrain": "5:18am", "lastTrain": "12:40am" },
+              "Sundays/Public Holidays": { "firstTrain": "5:38am", "lastTrain": "12:40am" }
+            }
+          }
+        ]
+      }
+    },
+    "busTimings": {
+      "operatingHours": "Most bus interchanges have buses running from 5:30 AM to 12:30 AM (or 00:30).",
+      "frequency": "The frequency of buses varies greatly depending on the line and time of day, but on the main lines, they are reasonably frequent.",
+      "nightServices": "Some bus routes offer night services, which may operate until later in the evening or early morning.",
+      "interchangeInformation": "For the most accurate and up-to-date information on specific interchanges, consult the official websites or apps of the transportation providers, such as SMRT or LTA."
+    }
+  }  

@@ -1,0 +1,18 @@
+[
+    {
+      "origin": "EUNOS MRT STATION",
+      "destination": "CHINESE GARDEN MRT STATION",
+      "fare": 1.30
+    },
+    {
+      "origin": "EUNOS MRT STATION",
+      "destination": "TAMPINES MRT STATION",
+      "fare": 1.70
+    },
+    {
+      "origin": "CHINESE GARDEN MRT STATION",
+      "destination": "TAMPINES MRT STATION",
+      "fare": 1.50
+    }
+  ]
+  

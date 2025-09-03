@@ -1,0 +1,294 @@
+{
+    "settingpage": {
+      "languageButton": "语言: ",
+      "myProfile": "我的资料",
+      "displayFonts": "显示字体",
+      "colorTheme": "颜色主题",
+      "sendFeedback": "发送反馈",
+      "termsPolicy": "使用条款/隐私政策",
+      "selectLanguageTitle": "选择语言",
+      "closeButton": "关闭",
+      "fontModalTitle": "选择字体大小",
+      "fontLabel": "字体",
+      "modalBody": "使用本应用程序即表示您同意我们的使用条款和隐私政策。为了为您提供个性化的交通更新、路线规划和安全的登录体验，本应用需要访问您的位置信息以及您的电子邮件地址和密码。\n\n位置信息：\n您的位置仅用于计算路线并提供您附近的实时公共交通更新。此信息在您的设备或我们的安全服务器上处理，不会在未经您明确同意的情况下与第三方共享。\n\n电子邮件和密码：\n您的电子邮件地址用于创建和管理您的帐户以及传达重要的服务更新。您的密码经过加密后安全存储，以保护您的隐私并确保帐户安全。\n\n数据安全和隐私：\n我们非常重视您的隐私。我们不会出售或泄露您的个人信息给任何第三方。所有数据均按照我们的隐私准则和适用法律处理。您有权通过联系我们的支持团队请求删除或修改您的数据。\n\n继续使用即表示您已阅读、理解并同意这些条款。如果您不同意其中的任何部分，请不要使用此应用程序。",
+      "language": "中文"
+    },
+    "layout": {
+      "searchPlaceholder": "搜索（例如票价、聊天、个人资料）...",
+      "home": "🏠 首页",
+      "fare": "💰 票价",
+      "chatbot": "🤖 聊助手",
+      "settings": "⚙️ 设置",
+      "currentWeather": "当前天气",
+      "weatherLoadingError": "无法获取天气数据。请检查服务器连接。",
+      "close": "关闭"
+    },
+    "transport": {
+      "taxi": "德士",
+      "bus": "巴士",
+      "mrt": "地铁"
+    },
+    "bushomelayout": {
+      "errorText": "请耐心等待……公交服务已结束。",
+      "Loading": "正在加载巴士数据..."
+    },
+    "taxihomelayout": {
+      "makingCall": "拨打电话",
+      "callConfirm": "您即将拨打 {{phone}}。是否继续？",
+      "cancel": "取消",
+      "continue": "继续",
+      "currentLocation": "当前位置",
+      "overview": "概述",
+      "callTaxi": "叫德士",
+      "taxisAvailable": "可用德士：{{count}}",
+      "usingCurrentLocation": "使用当前位置坐标",
+      "bookingHotlines": "德士预订热线",
+      "hotlineInfo": "要预订德士，请拨打我们的热线号码之一。",
+      "close": "关闭",
+      "Loading": "正在加载德士数据..."
+    },
+    "trainhomelayout": {
+      "errorText": "请耐心等待…… 地铁服务已结束。",
+      "crowdLevel": "人流量",
+      "ShowMap": "显示地图",
+      "TrainInfo": "列车到达信息",
+      "ShowList": "显示列表",
+      "Overview": "概述",
+      "Loading": "正在加载地铁数据...",
+      "CurrentLocation": "当前位置"
+    },
+    "farepage": {
+      "chooseFareType": "选择票价类型 ▼",
+      "fareCalculator": "票价计算器",
+      "openFareCalculator": "打开票价计算器",
+      "viewNavigationMap": "查看导航地图",
+      "taxi": "德士",
+      "bus": "巴士",
+      "mrt": "地铁",
+      "fareTypes": {
+        "taxi": {
+          "flagDown": "起步价",
+          "distanceTime": "距离和时间计费",
+          "peakPeriods": "高峰时段",
+          "locationSurcharges": "地点附加费",
+          "bookingFees": "预订费",
+          "peakPeriod": "高峰时段\n工作日\n• 早上6点至9:29（不包括公共假期）\n• 下午5点至11:59（包括公共假期）",
+          "lateNight": "深夜服务\n\n每天从午夜到早上5:59"
+        },
+        "bus": {
+          "adultCard": "成人卡票价",
+          "workfare": "就业补助交通优惠票价",
+          "studentCard": "学生卡票价",
+          "seniorDisabled": "乐龄/残障人士卡票价",
+          "fareTable": "巴士票价表"
+        },
+        "mrt": {
+          "adultCard": "成人卡票价",
+          "workfare": "就业补助交通优惠票价",
+          "studentCard": "学生卡票价",
+          "seniorDisabled": "乐龄/残障人士卡票价",
+          "discount50cent": "如果在工作日（不包括公共假期）早上7:45之前刷卡，将享受50分的折扣"
+        }
+      },
+      "tables": {
+        "taxiType": "德士类型",
+        "fare": "票价",
+        "distanceFare": "距离计费范围",
+        "waitFare": "等待计费",
+        "period": "时段",
+        "meteredFare": "计价器费用",
+        "location": "地点",
+        "surcharge": "附加费",
+        "operator": "运营商",
+        "website": "网站",
+        "distance": "距离 (公里)",
+        "basicService": "基本服务",
+        "expressService": "快捷服务",
+        "tapToZoom": "点击放大",
+        "close": "关闭",
+        "Standard": "标准",
+        "Premium": "高级"
+      },
+      "bookingInfo": "非高峰时段每次预订费为2.30新元（Prime除外为2.50新元）。\n\n高峰时段预订费有所不同。请咨询各公司了解更多信息。\n\n高峰时段：\n\n工作日（周一至周五，公共假期除外）\n\n • 早上6点至9:29\n\n • 晚上10点至9:29\n\n周末（周六、周日及公共假期）：\n\n • 上午10点至下午1:59\n\n • 下午5点至晚上11:59",
+      "alert": {
+        "External": "外部链接",
+        "message": "您即将离开应用程序，是否继续？",
+        "continue": "继续",
+        "cancel": "取消"
+      }
+    },
+    "feedback": {
+      "back": "返回",
+      "title": "反馈表",
+      "placeholder": "请输入您的反馈...",
+      "ratingLabel": "为SmartCommute评分:",
+      "submit": "提交反馈",
+      "alerts": {
+        "errorEmpty": "请提供反馈和评分。",
+        "errorAuth": "请登录以提交反馈。谢谢！",
+        "errorNetwork": "网络错误。请稍后再试。",
+        "success": "反馈提交成功！",
+        "OK": "好的"
+      }
+    },
+    "fareroute": {
+      "origin": "起点",
+      "destination": "终点",
+      "e.g.": "例如 ",
+      "PublicTransport": "公共交通",
+      "cab": "德士",
+      "Search": "搜索",
+      "AlertTitle": "无法获取路线",
+      "AlertMessage": "无法获取路线。请检查您的网络连接或稍后再试。",
+      "EstimatedFare": "预计票价",
+      "TravelTime": "预计旅行时间",
+      "MapOverview": "地图概览"
+    },
+   "authentication": {
+      "login": "登录",
+      "signup": "注册",
+      "continueasguest": "以游客身份继续",
+      "forgetpassword": "忘记密码",
+      "verifyemail": "验证邮箱",
+      "username": "用户名",
+      "password": "密码",
+      "confirmpassword": "确认密码",
+      "email": "邮箱",
+      "alerts": {
+        "AlertErrorMessage": "错误",
+        "LoginAlertMessage": "登录失败",
+        "FieldRequiredMsg": "所有字段均为必填！",
+        "EmailWrongFormat": "邮箱必须包含@和.com",
+        "PasswordNoMatch": "密码不匹配！",
+        "PasswordRequirement": "密码长度至少为8个字符，包含1个大写字母、1个数字和1个特殊字符。",
+        "EmptyEmail": "请输入您的邮箱！",
+        "signupfailed": "注册失败",
+        "networkerror": "网络错误，请稍后重试。"
+      },
+      "backendmessages": {
+        "Signup400": "邮箱已被使用",
+        "Signup401": "用户名已被使用",
+        "Signup201": "用户已注册，请验证您的邮箱。",
+        "Error500": "服务器错误",
+        "Login400": "用户未找到",
+        "Login401": "邮箱未验证",
+        "Login402": "凭据无效",
+        "Login200": "OTP已发送到您的邮箱。",
+        "Logout400": "未登录",
+        "Logout200": "成功登出",
+        "VerifyLoginOTP400": "OTP无效或已过期",
+        "VerifyLoginOTP200": "登录成功",
+        "verifyEmail400": "OTP无效或已过期",
+        "verifyEmail200": "邮箱验证成功",
+        "resendOTP401": "用户未认证",
+        "resendOTP404": "您的新OTP",
+        "resendOTP200": "OTP已重新发送",
+        "ForgetPassword200": "成功\n已向您的电子邮件发送了用于重置密码的验证码",
+        "ForgetPassword400": "需要提供电子邮件",
+        "ForgetPassword404": "未找到用户",
+        "ForgetPassword500": "服务器错误"
+        
+      }
+    },
+    "ProfilePage":{
+      "back": "返回",
+      "profiledetail": "个人资料详情",
+      "StatusGuest": "状态: 访客",
+      "StatusAdmin": "状态: 管理员",
+      "StatusPremium": "状态: 高级会员",
+      "StatusLite": "状态: 精简版",
+      "GreetingHi": "你好, {{username}}",
+      "Greeting": "你好，用户",
+      "SignupLogin": "注册 / 登录",
+      "Supportus": "支持我们",
+      "GoAdminPanel": "进入管理面板",
+      "ChangePassword": "更改密码",
+      "Logout": "登出",
+      "Message1": "升级至高级会员",
+      "Message2": "无长期承诺，随时取消，享受无广告体验。",
+      "Message3": "仅需 $1.48 / 3 个月",
+      "Message4": "• 无广告体验",
+      "Message5": "• 支持本地创作者",
+      "Message6": "• 超值体验",
+      "Upgrade": "立即升级",
+      "NoteMessage": "注意：购买确认时将收取费用。您的订阅将自动续订，除非在当前期限结束前至少 24 小时关闭自动续订。您可以在账户设置中管理或禁用自动续订。不提供部分退款。",
+      "Cancel": "取消",
+      "Alerts": {
+        "LoggedOut": "已登出\n您已成功登出。",
+        "DenyAccess": "访问被拒\n只有登录用户可以更改密码。",
+        "LoginRequired": "需要登录\n您必须登录才能购买高级功能。",
+        "PurchaseSuccess": "购买成功\n您现在是高级会员！",
+        "PurchaseFail": "购买失败\n更新您的高级会员状态时出现问题。",
+        "Error": "错误\n更新您的高级会员状态时发生错误。"
+      }
+    },
+    "ProfilePageForAdmin": {
+      "Back": "返回",
+      "FeedbackReceive": "管理员收到的反馈",
+      "User": "用户: ",
+      "Rating": "评分: ",
+      "Date": "日期: ",
+      "Alerts": {
+        "NotLoggedIn": "未登录\n请以管理员身份登录以访问此页面。",
+        "DenyAccess": "访问被拒绝\n您不是管理员。",
+        "ErrorVerify": "错误\n未能验证管理员身份，请重试。",
+        "ErrorFetch": "错误\n无法检索反馈，请重试。"
+      },
+      "BackendMessages": {
+        "getfeedback404": "错误\n未找到或未验证。",
+        "getfeedback405": "错误\n访问被拒绝。仅管理员可以检索反馈。",
+        "getfeedback406": "错误\n未找到任何反馈。",
+        "getfeedback200": "成功\n所有反馈已成功检索",
+        "getfeedback500": "错误\n未能检索所有反馈"
+      }
+    },
+    "Verificationselectionpage": {
+      "text1": "验证",
+      "text2": "通过验证",
+      "text3": "邮箱"
+    },
+    "VerificationPage": {
+      "Verification": "验证",
+      "CodeHeaderText": "输入6位数验证码",
+      "ResendText": "重新发送",
+      "VerifyText": "验证",
+      "Alerts": {
+        "VerificationSuccess": "成功\nOTP验证成功！",
+        "NetworkError": "错误\n网络错误，请稍后重试。",
+        "ResendSuccess": "成功\nOTP重新发送成功！"
+      },
+      "BackendMessages": {
+        "Verify400": "验证失败\n无效或过期的OTP",
+        "Verify500": "验证失败\n服务器错误",
+        "Verify401": "验证失败\n需要邮箱和OTP。",
+        "Resend401": "错误\n用户未认证",
+        "Resend404": "错误\n未找到用户",
+        "Resend500": "错误\n服务器错误"
+      }
+    },
+    "ChangePassword": {
+    "Back": "返回",
+    "ChangePassword": "更改密码",
+    "OldPassword": "旧密码",
+    "NewPassword": "新密码",
+    "ConfirmNewPassword": "确认新密码",
+    "ResetPassword": "重置密码",
+    "UpdatePassword": "更新密码",
+    "Alerts": {
+      "RestrictedAccess": "访问受限\n只有登录用户才能更改密码。",
+      "PasswordNotMatch": "错误\n新密码和确认密码不匹配。",
+      "PasswordRequirement": "错误\n密码必须至少8个字符长，包含1个大写字母，1个数字和1个特殊字符。",
+      "ErrorChangingPassword": "错误\n更改密码时发生错误。"   
+    },
+    "BackendMessages": {
+      "ChangePassword200": "成功\n密码修改成功。",
+      "ChangePassword400": "错误\n请提供旧密码和新密码。",
+      "ChangePassword401": "错误\n令牌无效或缺失。请先登录。",
+      "ChangePassword402": "错误\n未找到用户。",
+      "ChangePassword403": "错误\n旧密码不正确。",
+      "ChangePassword404": "错误\n需要提供邮箱和新密码。",
+      "ChangePassword500": "错误\n服务器错误"
+    }
+}
+  }
+  

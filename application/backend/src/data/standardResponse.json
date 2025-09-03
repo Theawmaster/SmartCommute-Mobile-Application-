@@ -1,0 +1,8 @@
+{
+    "about": "Our app is designed to help you find nearby bus stops, MRT stops, and taxi availability. Bus stops are shown within a 1km radius, taxis within a 2km radius, and MRT stations within a 3km radius. You can also view fare information for your journey.",
+    "bus_stop_info": "Bus stops are displayed within a 1km radius of your current location.",
+    "taxi_info": "Taxi availability is shown within a 2km radius of your current location.",
+    "mrt_info": "MRT stops are provided within a 3km radius of your current location.",
+    "fares_info": "You can view fare information for the different modes of transport in our app."
+  }
+  

@@ -1,0 +1,68 @@
+config:
+  target: "http://localhost:5001"  
+  phases:
+    - duration: 200       # Duration of the stress test in seconds (2 minutes, adjust as needed)
+      arrivalRate: 40     # Start 40 virtual users per second (adjust for higher stress)
+
+
+  defaults:
+    headers:
+      Content-Type: "application/json"
+
+scenarios:
+  # 1. Fare Route Stress Test (Simulating Multiple Fare Route Requests)
+  - name: "Fare Route Stress Test"
+    flow:
+      - get:
+          url: "https://www.onemap.gov.sg/api/public/routingsvc/route?start=1.34455562653701,103.685442704766&end=1.33758505557106,103.736682684179&routeType=pt&date=03-24-2025&time=03%3A04%3A47&mode=TRANSIT&maxWalkDistance=50&numItineraries=5"
+      - think: 2  # Short think time between requests to simulate high load
+
+  # 2. Chatbot Stress Test (Simulating Multiple Chatbot Conversations)
+  - name: "Chatbot Stress Test"
+    flow:
+      - post:
+          url: "/api/chatbot"
+          body: '{"message": "Hello, how can I get to the nearest bus stop?"}'  # Sample query to chatbot
+      - think: 2  # Short think time between requests
+
+  # 3. Bus Arrival Information (Standard Test)
+  - name: "Bus Arrival"
+    flow:
+      - get:
+          url: "/api/bus/bus-arrival?busStopCode=46981"
+      - think: 1
+
+  # 4. Nearby Bus Stops (Standard Test)
+  - name: "Nearby Bus Stops"
+    flow:
+      - get:
+          url: "/api/bus/nearby-bus-stops?lat=1.344104&lon=103.687252"
+      - think: 1
+
+  # 5. Bus Stop Details by Code (Standard Test)
+  - name: "Bus Stop Details"
+    flow:
+      - get:
+          url: "/api/bus/27261"
+      - think: 1
+
+  # 6. Taxi Availability (Standard Test)
+  - name: "Taxi Availability"
+    flow:
+      - get:
+          url: "/api/taxi/taxi-availability?lat=1.344104&lon=103.687252"
+      - think: 1
+
+  # 7. Nearby Train Crowd Data (Standard Test)
+  - name: "Nearby Train Crowd"
+    flow:
+      - get:
+          url: "/api/train/nearby-train-crowd?lat=1.429233&lon=103.793623&radius=2"
+      - think: 1
+
+  # 8. Current Weather Information (Standard Test)
+  - name: "Current Weather"
+    flow:
+      - get:
+          url: "/api/weather/currentweather"
+      - think: 1

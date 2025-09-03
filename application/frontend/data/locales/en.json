@@ -1,0 +1,307 @@
+{
+    "settingpage": {
+      "languageButton": "Language: ",
+      "myProfile": "My Profile",
+      "displayFonts": "Display Fonts",
+      "colorTheme": "Color Theme",
+      "sendFeedback": "Send Feedback",
+      "termsPolicy": "Terms of Use / Privacy Policy",
+      "selectLanguageTitle": "Select Language",
+      "closeButton": "Close",
+      "fontModalTitle": "Select Your Font Size",
+      "fontLabel": "Font",
+      "modalBody": "By using this application, you agree to our Terms of Use and Privacy Policy. In order to provide you with personalized transit updates, route planning, and a secure login experience, this app requires access to your location data, as well as your email address and password.\n\nLocation Data:\nYour location is used solely to calculate transit routes and provide real-time public transport updates near you. This information is processed on your device or our secure servers and is not shared with third parties without your explicit consent.\n\nEmail and Password:\nYour email address is used to create and manage your account and to communicate important service updates. Your password is securely stored using encryption to protect your privacy and ensure account security.\n\nData Security and Privacy:\nWe take your privacy seriously. We do not sell or disclose your personal information to any third parties. All data is handled according to our privacy guidelines and applicable laws. You have the right to request deletion or modification of your data by contacting our support team.\n\nBy proceeding, you acknowledge that you have read, understood, and agreed to these terms. If you do not agree with any part of these policies, please do not use this application.",
+      "language": "English"
+    },
+    "layout": {
+      "searchPlaceholder": "Search (e.g. fare, chat, profile)...",
+      "home": "🏠 Home",
+      "fare": "💰 Fare",
+      "chatbot": "🤖 Chatbot",
+      "settings": "⚙️ Settings",
+      "currentWeather": "Current Weather",
+      "weatherLoadingError": "Failed to fetch weather data. Please check server connection.",
+      "close": "Close"
+    },
+    "transport": {
+      "taxi": "Taxi",
+      "bus": "Bus",
+      "mrt": "MRT"
+    },
+      "bushomelayout": {
+      "errorText": "Hold on tight... Bus services has ended.",
+      "Loading": "Loading bus data..."
+    },
+    "taxihomelayout": {
+      "makingCall": "Making a Call",
+      "callConfirm": "You are about to call {{phone}}. Do you want to continue?",
+      "cancel": "Cancel",
+      "continue": "Continue",
+      "currentLocation": "Current Location",
+      "overview": "Overview",
+      "callTaxi": "Call Taxi",
+      "taxisAvailable": "Taxis Available: {{count}}",
+      "usingCurrentLocation": "Using Current Location Coordinates",
+      "bookingHotlines": "Taxi Booking Hotlines",
+      "hotlineInfo": "For booking a taxi, please call one of our hotline numbers.",
+      "close": "Close",
+      "Loading": "Loading taxi data..."
+    },
+    "trainhomelayout": {
+      "errorText": "Hold on tight... Train services has ended.",
+      "crowdLevel": "Crowd Level",
+      "ShowMap": "Show Map",
+      "TrainInfo": "Train Arrival Info",
+      "ShowList": "Show List",
+      "Overview": "Overview",
+      "Loading": "Loading train data...",
+      "CurrentLocation": "Current Location"
+    },
+    "farepage": {
+      "chooseFareType": "Choose Fare Type ▼",
+      "fareCalculator": "Fare Calculator",
+      "openFareCalculator": "Open Fare Calculator",
+      "viewNavigationMap": "View Navigation Map",
+      "taxi": "Taxi",
+      "bus": "Bus",
+      "mrt": "MRT",
+      "fareTypes": {
+        "taxi": {
+          "flagDown": "Flag-down Fare",
+          "distanceTime": "Distance & Time-based Unit Fares",
+          "peakPeriods": "Peak Periods",
+          "locationSurcharges": "Location Surcharges",
+          "bookingFees": "Booking Fees",
+          "peakPeriod": "Peak Periods\nWeekday\n• From 6am to 9:29am, excluding public holidays \n• From 5pm to 11:59pm, including public holidays",
+          "lateNight": "Late Night Hiring\n\nEveryday from midnight to 5:59am"
+        },
+        "bus": {
+          "adultCard": "Adult Card Fares",
+          "workfare": "Workfare Transport Concession Scheme Card Fares",
+          "studentCard": "Student Card Fares",
+          "seniorDisabled": "Senior Citizen / Persons with Disabilities Card Fares",
+          "fareTable": "Bus Fare Table"
+        },
+        "mrt": {
+          "adultCard": "Adult Card Fares",
+          "workfare": "Workfare Transport Concession Scheme Card Fares",
+          "studentCard": "Student Card Fares",
+          "seniorDisabled": "Senior Citizen / Persons with Disabilities Card Fares",
+          "discount50cent": "There will be a 50-cent discount if tap in before 7:45am on Weekdays (Excluding Public Holidays)"
+        }
+      },
+      "tables": {
+        "taxiType": "Taxi Type",
+        "fare": "Fare",
+        "distanceFare": "Range of distance-based unit fare",
+        "waitFare": "Wait-based fare",
+        "period": "Period",
+        "meteredFare": "Metered fare",
+        "location": "Location",
+        "surcharge": "Surcharge",
+        "operator": "Operator",
+        "website": "Website",
+        "distance": "Distance (km)",
+        "basicService": "Basic Services",
+        "expressService": "Express Services",
+        "tapToZoom": "Tap to zoom",
+        "close": "Close",
+        "Standard": "Standard",
+        "Premium": "Premium"
+      },
+      "bookingInfo": "For non-peak per ride, the booking fee is $2.30 for all companies, except for Prime ($2.50).\n\nFor peak periods, the booking fee varies. Please contact the respective companies for more information.\n\nPeak period:\n\nWeekdays (Mon to Fri, excluding Public Holidays)\n\n • From 6am to 9:29am\n\n • From 10pm to 9:29pm\n\nWeekends (Sat, Sun and Public Holidays):\n\n • From 10am to 1:59pm\n\n • From 5pm to 11:59pm",
+      "alert": {
+        "External": "External link",
+        "message": "You are about to leave the app and open an external website. Do you want to continue?",
+        "continue": "Continue",
+        "cancel": "Cancel"
+      }
+    },
+    "feedback": {
+      "back": "Back",
+      "title": "Feedback Form",
+      "placeholder": "Enter your feedback...",
+      "ratingLabel": "Rate SmartCommute:",
+      "submit": "Submit Feedback",
+      "alerts": {
+        "errorEmpty": "Please provide both feedback and a rating.",
+        "errorAuth": "Please login in order to submit feedback. Thank you!",
+        "errorNetwork": "Network error. Please try again later.",
+        "success": "Feedback submitted successfully!",
+        "OK": "OK"
+      }
+    },
+    "fareroute": {
+      "origin": "Origin",
+      "destination": "Destination",
+      "e.g.": "e.g. ",
+      "PublicTransport": "Public Transport",
+      "cab": "Cab",
+      "Search": "Search Route",
+      "AlertTitle": "Unable to Fetch Route",
+      "AlertMessage": "Please check your internet connection and try again or there is no Public Transport available at this hour.",
+      "EstimatedFare": "Estimated Fare",
+      "TravelTime": "Travel Time",
+      "MapOverview": "Map Overview"
+    },
+    "authentication":{
+      "login": "Login",
+      "signup": "Sign Up",
+      "continueasguest": "Continue as Guest",
+      "forgetpassword": "Forget Password",
+      "verifyemail": "Verify Email",
+      "username": "Username",
+      "password": "Password",
+      "confirmpassword": "Confirm Password",
+      "email": "Email",
+      "alerts":{
+        "AlertErrorMessage": "Error",
+        "LoginAlertMessage": "Login Failed",       
+        "FieldRequiredMsg": "All fields are required!",
+        "EmailWrongFormat": "Email must contain @ and .com",
+        "PasswordNoMatch": "Password do not match!",
+        "PasswordRequirement": "Password must be at least 8 characters long, contain 1 uppercase letter, 1 number, and 1 special character.",
+        "EmptyEmail": "Please enter your email!.",
+        "signupfailed": "Signup Failed",
+        "networkerror": "Network error. Please try again later."
+        
+      },
+      "backendmessages":{
+        "Signup400": "Email already in use",
+        "Signup401": "Username already in use",     
+        "Signup201": "User registered. Please verify your email.",
+        "Signup500": "Server error",
+        
+        "Login400": "User not found",
+        "Login401": "Email not verified",
+        "Login402": "Invalid credentials",
+        "Login200": "OTP sent to your email.",
+        "Login500": "Server error",
+
+        "Logout400": "Not logged in",
+        "Logout200": "Logged out successfully",
+        "Logout500": "Server error",
+      
+        "VerifyLoginOTP400": "Invalid or expired OTP",
+        "VerifyLoginOTP200": "Login successful",
+        "VerifyLoginOTP500": "Server error",
+
+        "verifyEmail400": "Invalid or expired OTP",
+        "verifyEmail200": "Email verified successfully",
+        "VerifyEmail500": "Server error",
+
+        "resendOTP401": "User not authenticated",
+        "resendOTP404": "Your New OTP",     
+        "resendOTP200": "OTP resent successfully",
+        "resendOTP500": "Server error",
+
+        "ForgetPassword200": "Success\nOTP sent to your email for password reset.", 
+        "ForgetPassword400": "Email is required",
+        "ForgetPassword404": "User not found",
+        "ForgetPassword500": "Server error"
+      }
+    },
+    "ProfilePage":{
+      "back": "Back",
+      "profiledetail": "Profile Details",
+      "StatusGuest": "Status: Guest",
+      "StatusAdmin": "Status: Admin",
+      "StatusPremium": "Status: Premium",
+      "StatusLite": "Status: Lite",
+      "GreetingHi": "Hi, {{username}}",
+      "Greeting": "Hi, User",
+      "SignupLogin": "Sign Up / Login",
+      "Supportus": "Support Us",
+      "GoAdminPanel": "Go to Admin Panel",
+      "ChangePassword": "Change Password",
+      "Logout": "Logout",
+      "Message1": "Upgrade to Premium",
+      "Message2": "Enjoy an ad-free experience with no long-term commitment – cancel anytime.",
+      "Message3": "Only $1.48 / 3 months",
+      "Message4": "• Experience zero ads",
+      "Message5": "• Support local creators",
+      "Message6": "• Exceptional value",
+      "Upgrade": "Upgrade Now",
+      "NoteMessage": "Note: Payment will be charged at confirmation of purchase. Your subscription will automatically renew unless auto-renew is turned off at least 24 hours before the end of the current period. Manage or disable auto-renew in your Account settings. No partial refunds.",
+      "Cancel": "Cancel",
+      "Alerts":{
+        "LoggedOut":"Logged Out\nYou have been logged out.",
+        "DenyAccess": "Access Denied\nOnly logged in users can change their password.",
+        "LoginRequired": "Login Required\nYou must be logged in before purchasing premium features.",
+        "PurchaseSuccess": "Purchase Successful\nYou are now a Premium user!",
+        "PurchaseFail": "Purchase Failed\nThere was a problem updating your premium status.",
+        "Error": "Error\nThere was an error updating your premium status."
+      }
+    },
+    "ProfilePageForAdmin":{
+      "Back": "Back",
+      "FeedbackReceive": "Admin Received Feedbacks",
+      "User": "User: ",
+      "Rating": "Rating: ",
+      "Date": "Date: ",
+      "Alerts":{
+        "NotLoggedIn": "Not Logged In\nPlease log in as Admin to access this page.",
+        "DenyAccess": "Access Denied\nYou are not an admin.",
+        "ErrorVerify": "Error\nFailed to verify admin status. Please try again.",
+        "ErrorFetch": "Error\nCould not retrieve feedbacks. Please try again."
+      },
+      "BackendMessages":{
+        "getfeedback404": "Error\nnot found or not verified.",
+        "getfeedback405": "Error\nAccess denied. Only admins can retrieve feedbacks.",
+        "getfeedback406": "Error\nNo feedbacks found.",
+        "getfeedback200": "Error\nAll feedbacks retrieved successfully",
+        "getfeedback500": "Error\nFailed to retrieve all feedbacks"
+      }
+    },
+    "Verificationselectionpage":{
+     "text1": "Verification",
+     "text2": "Verification via",
+     "text3": "Email"
+    },
+    "VerificationPage":{
+      "Verification": "Verification",
+      "CodeHeaderText": "Enter the 6-digit code",
+      "ResendText": "Resend",
+      "VerifyText": "Verify",
+      "Alerts":{
+        "VerificationSuccess": "Success\nOTP verified successfully!",
+        "NetworkError": "Error\nNetwork error. Please try again later.",
+        "ResendSuccess": "Success\nOTP resent successfully!"  
+      },
+      "BackendMessages":{
+        "Verify400": "Verification Failed\nInvalid or expired OTP",
+        "Verify500": "Verification Failed\nServer error",
+        "Verify401": "Verification Failed\nEmail and OTP is required.",
+        
+        "Resend401": "Error\nUser not authenticated",
+        "Resend404": "Error\nUser not found",
+        "Resend500": "Error\nServer error"
+      }
+    },
+    "ChangePassword":{
+        "Back": "Back",
+        "ChangePassword": "Change Password",
+        "OldPassword": "Old Password",
+        "NewPassword": "New Password",
+        "ConfirmNewPassword": "Confirm New Password",
+        "ResetPassword": "Reset Password",
+        "UpdatePassword": "Update Password",
+        "Alerts":{
+          "RestrictedAccess": "Restricted Access\nOnly logged-in users can change password.",
+          "PasswordNotMatch": "Error\nNew password and confirmation do not match.",
+          "PasswordRequirement": "Error\nPassword must be at least 8 characters long, contain 1 uppercase letter, 1 number, and 1 special character.",
+          "ErrorChangingPassword": "Error\nAn error occurred while changing password."   
+        },
+        "BackendMessages":{
+          "ChangePassword200": "Success\nPassword changed successfully.",
+          "ChangePassword400": "Error\nPlease provide both Old and New Password.",
+          "ChangePassword401": "Error\nInvalid or missing token. Please log in first.",
+          "ChangePassword402": "Error\nUser not found.",
+          "ChangePassword403": "Error\nOld password is incorrect.",
+          "ChangePassword404": "Error\nEmail and new password are required.",
+          "ChangePassword500": "Error\nServer error"
+        }
+    }
+
+  }
+  

@@ -1,0 +1,226 @@
+{
+    "taxiFareTable": [
+      {
+        "taxiFareType": "Flag-Down Fare",
+        "taxiType": "Standard",
+        "fare": "$4.40 - $4.80"
+      },
+      {
+        "taxiFareType": "Flag-Down Fare",
+        "taxiType": "Premium",
+        "fare": "$4.80 - $5.50"
+      },
+      {
+        "taxiFareType": "Distance & Time-based Unit Fares",
+        "taxiType": "Standard",
+        "distanceFare": "26 cents/400m (1-10km)\n\n26 cents/350m(>10km)",
+        "timeFare": "26 cents/45 sec wait time"
+      },
+      {
+        "taxiFareType": "Distance & Time-based Unit Fares",
+        "taxiType": "Premium",
+        "distanceFare": "36-38 cents/400m (1-10km)\n\n36-38 cents/350m(>10km)",
+        "timeFare": "36-38 cents/45 sec wait time"
+      },
+      {
+        "taxiFareType": "Booking Fees",
+        "taxiOperator": "CDG Taxi",
+        "taxiWebsite": "www.cdgtaxi.com.sg"
+      },
+      {
+        "taxiFareType": "Booking Fees",
+        "taxiOperator": "Prime Taxi",
+        "taxiWebsite": "www.primetaxi.sg"
+      },
+      {
+        "taxiFareType": "Booking Fees",
+        "taxiOperator": "Strides Premier Taxi",
+        "taxiWebsite": "www.stridespremier.com.sg"
+      },
+      {
+        "taxiFareType": "Booking Fees",
+        "taxiOperator": "Trans-cab",
+        "taxiWebsite": "www.transcab.com.sg"
+      },
+      {
+        "taxiFareType": "Peak Periods",
+        "farePeriod": "Peak Periods\nWeekday\n• From 6am to 9:29am, excluding public holidays\n• From 5pm to 11:59pm, including public holidays",
+        "meteredFare": "25% of metered fare"
+      },
+      {
+        "taxiFareType": "Peak Periods",
+        "farePeriod": "Late Night Hiring\n\nEveryday from midnight to 5:59am",
+        "meteredFare": "50% of metered fare"
+      },
+      {
+        "taxiFareType": "Location Surcharges",
+        "taxiLocation": "City Area\n\nFrom 5pm to before midnight on any day",
+        "taxiBookingFees": "$3.00"
+      },
+      {
+        "taxiFareType": "Location Surcharges",
+        "taxiLocation": "Changi Airport\n\nFrom 5pm to before midnight on any day\n\nAll other times",
+        "taxiBookingFees": "$8.00 / $6.00"
+      },
+      {
+        "taxiFareType": "Location Surcharges",
+        "taxiLocation": "Fuji Xerox Towers\nMonday to Fridays, excluding public holidays",
+        "taxiBookingFees": "Prevailing charges at the ERP gantry located at the junction of Anson Road and Keppel Road"
+      },
+      {
+        "taxiFareType": "Location Surcharges",
+        "taxiLocation": "Gardens by the Bay\n\nAny time on any day",
+        "taxiBookingFees": "$3.00"
+      },
+      {
+        "taxiFareType": "Location Surcharges",
+        "taxiLocation": "Mandai Wildlife Reserve (Night Safari, River Wonders, Singapore Zoo)\n\nFrom 1pm to before midnight\n\nBird Paradise\n\nFrom 1pm to before midnight on any day",
+        "taxiBookingFees": "$5.00"
+      }
+    ],
+    "busFareTable": [
+      {
+        "fareType": "Adult Card Fares",
+        "fares": [
+          {
+            "distance": "0.0 - 3.2 km",
+            "basicService": "$1.19",
+            "expressService": "$1.79 - $3.20"
+          },
+          {
+            "distance": "3.3 - 4.2 km",
+            "basicService": "$1.29",
+            "expressService": "$1.89 - $4.20"
+          },
+          {
+            "distance": "4.3 - 5.2 km",
+            "basicService": "$1.40",
+            "expressService": "$2.00 - $5.20"
+          },
+          {
+            "distance": "5.3 - 6.2 km",
+            "basicService": "$1.50",
+            "expressService": "$2.10 - $6.20"
+          },
+          {
+            "distance": "6.3 - 7.2 km",
+            "basicService": "$1.59",
+            "expressService": "$2.19 - $7.20"
+          },
+          {
+            "distance": "> 40.2 km",
+            "basicService": "$2.47",
+            "expressService": "$3.07"
+          }
+        ]
+      },
+      {
+        "fareType": "Workfare Transport Concession Scheme Card Fares",
+        "fares": [
+          {
+            "distance": "0.0 - 3.2 km",
+            "basicService": "$0.78",
+            "expressService": "$1.28 - $3.20"
+          },
+          {
+            "distance": "3.3 - 4.2 km",
+            "basicService": "$0.86",
+            "expressService": "$1.36 - $4.20"
+          },
+          {
+            "distance": "4.3 - 5.2 km",
+            "basicService": "$0.95",
+            "expressService": "$1.45 - $5.20"
+          },
+          {
+            "distance": "> 40.2 km",
+            "basicService": "$1.83",
+            "expressService": "$2.33"
+          }
+        ]
+      },
+      {
+        "fareType": "Senior Citizen / Persons with Disabilities Card Fares",
+        "fares": [
+          {
+            "distance": "0.0 - 3.2 km",
+            "basicService": "$0.69",
+            "expressService": "$1.14 - $3.20"
+          },
+          {
+            "distance": "3.3 - 4.2 km",
+            "basicService": "$0.76",
+            "expressService": "$1.21 - $4.20"
+          },
+          {
+            "distance": "> 7.2 km",
+            "basicService": "$1.03",
+            "expressService": "$1.48"
+          }
+        ]
+      },
+      {
+        "fareType": "Student Card Fares",
+        "fares": [
+          {
+            "distance": "0.0 - 3.2 km",
+            "basicService": "$0.52",
+            "expressService": "$0.82 - $3.20"
+          },
+          {
+            "distance": "3.3 - 4.2 km",
+            "basicService": "$0.57",
+            "expressService": "$0.87 - $4.20"
+          },
+          {
+            "distance": "> 7.2 km",
+            "basicService": "$0.74",
+            "expressService": "$1.04"
+          }
+        ]
+      }
+    ],
+    "mrtFareTable": [
+      {
+        "fareType": "Adult Card Fares",
+        "fares": [
+          {
+            "distance": "0.0 - 3.2 km",
+            "basicService": "$1.50",
+            "expressService": "N/A"
+          }
+        ]
+      },
+      {
+        "fareType": "Workfare Transport Concession Scheme Card Fares",
+        "fares": [
+          {
+            "distance": "0.0 - 3.2 km",
+            "basicService": "$0.80",
+            "expressService": "N/A"
+          }
+        ]
+      },
+      {
+        "fareType": "Senior Citizen / Persons with Disabilities Card Fares",
+        "fares": [
+          {
+            "distance": "0.0 - 3.2 km",
+            "basicService": "$0.70",
+            "expressService": "N/A"
+          }
+        ]
+      },
+      {
+        "fareType": "Student Card Fares",
+        "fares": [
+          {
+            "distance": "0.0 - 3.2 km",
+            "basicService": "$0.60",
+            "expressService": "N/A"
+          }
+        ]
+      }
+    ]
+  }
+  
