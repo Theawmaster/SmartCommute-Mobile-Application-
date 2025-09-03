@@ -2,7 +2,7 @@
 
 > _"Empowering commuters with intelligent, real-time public transport guidance for the cities of tomorrow."_
 
-![SmartCommute Thumbnail](./application/frontend/assets/sc2006thumbnail.png)
+![SmartCommute Thumbnail](./application/frontend/assets/SmartCommute_Logo.png)
 
 <p align="center">
   <a href="https://github.com/softwarelab3/2006-SCEX-L1/tree/main/application/frontend">Frontend</a> |
