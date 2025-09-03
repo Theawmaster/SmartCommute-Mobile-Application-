@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="[https://github.com/softwarelab3/2006-SCEX-L1/tree/main/application/frontend](https://github.com/Theawmaster/SmartCommute-Mobile-Application-/tree/main/application/frontend)">Frontend</a> |
+  <a href="https://github.com/Theawmaster/SmartCommute-Mobile-Application-/tree/main/application/frontend">Frontend</a> |
   <a href="https://github.com/softwarelab3/2006-SCEX-L1/tree/main/application/backend">Backend</a> |
   <a href="https://www.youtube.com/watch?v=S7B_koAZyYg">Demo Video</a>
 </p>
